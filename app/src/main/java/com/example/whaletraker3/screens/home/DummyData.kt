@@ -1,6 +1,6 @@
 package com.example.whaletraker3.screens.home
 
-import com.example.whaletraker3.data.dataModels.WalletData
+import com.example.whaletraker3.dataModels.WalletData
 
 object DummyData {
 

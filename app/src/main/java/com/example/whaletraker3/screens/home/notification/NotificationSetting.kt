@@ -1,7 +1,6 @@
 package com.example.whaletraker3.screens.home.notification
 
 
-import android.app.Activity
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -14,7 +13,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -22,7 +20,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.whaletraker3.R
-import com.example.whaletraker3.ui.theme.Black_alpha
 import com.example.whaletraker3.ui.theme.Divider_color
 import com.example.whaletraker3.ui.theme.Sub_Text
 import com.example.whaletraker3.ui.theme.White

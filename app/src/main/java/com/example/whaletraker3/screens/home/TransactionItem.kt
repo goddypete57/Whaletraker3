@@ -19,7 +19,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.whaletraker3.R
-import com.example.whaletraker3.data.dataModels.WalletData
+import com.example.whaletraker3.dataModels.WalletData
 import com.example.whaletraker3.ui.theme.Green
 import com.example.whaletraker3.ui.theme.Sub_Text
 import com.example.whaletraker3.ui.theme.White

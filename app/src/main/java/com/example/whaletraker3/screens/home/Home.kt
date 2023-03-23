@@ -5,6 +5,7 @@ import android.inputmethodservice.Keyboard.Row
 import androidx.compose.foundation.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
+
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -37,14 +38,6 @@ import com.example.whaletraker3.ui.theme.*
 
 @Composable
 fun Home (navController: NavController,onTokenClick: (() -> Unit)? = null,onOpenNotification: () -> Unit = {  },onProfileClick:()->Unit={}) {
-    val font = FontFamily(
-        Font(R.font.basisgrotesquearabicpro_bold),
-        Font(R.font.basisgrotesquearabicpro_black),
-        Font(R.font.basisgrotesquearabicpro_light),
-        Font(R.font.basisgrotesquearabicpro_black),
-        Font(R.font.basisgrotesquearabicpro_regular)
-    )
-
 
     Column(
         modifier = Modifier
@@ -224,43 +217,7 @@ fun Home (navController: NavController,onTokenClick: (() -> Unit)? = null,onOpen
                 }
 
             }
-/*        Box(contentAlignment = Alignment.Center, modifier = Modifier
-            .fillMaxWidth()
-            .clip(
-                RoundedCornerShape(10.dp)
-            )
-            .height(247.dp)
-            .background(Color.Black)
-            .border(1.dp, BorderColor, RoundedCornerShape(10.dp))) {
 
-            Column( horizontalAlignment = Alignment.CenterHorizontally, modifier = Modifier.padding(top = 24.dp, bottom = 24.dp, end = 14.dp, start = 15.dp),) {
-                Icon(painter = painterResource(id = R.drawable.person), contentDescription = null, tint = White, modifier = Modifier.size(32.dp))
-                Spacer(modifier = Modifier.height(20.dp))
-                Text(text = "No Whale Yet",
-                    fontSize = 17.sp,
-                    fontFamily = FontFamily(Font(R.font.basisgrotesquearabicpro_medium),
-                    ), color = White
-                )
-                Spacer(modifier = Modifier.height(8.dp))
-                Text(text = "You can add whales here by simply clicking\n" +
-                        "the plus or add whale button",
-                    fontSize = 14.sp,
-                    fontFamily = FontFamily(Font(R.font.basisgrotesquearabicpro_regular),
-                    ), color = Sub_Text,
-                    textAlign = TextAlign.Center
-                )
-                Spacer(modifier = Modifier.height(18.dp))
-                ButtonWIthIcon(
-                    text = "Add Whale",
-                    modifier = Modifier
-                        .height(48.dp)
-                        .width(150.dp)
-                        .clip(RoundedCornerShape(30.dp))
-                ){
-                    navController.navigate(MainRouts.Add_Whale)
-                }
-            }
-        }}*/
         }
     }
 }
